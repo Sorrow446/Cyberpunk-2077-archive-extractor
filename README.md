@@ -16,5 +16,5 @@ Drag archive onto script. **Writing isn't chunked.**
 
 ### WEM to OGG
 ```
-FOR %%a IN (audio_1_general\*.RAW) DO (ww2ogg "%%a" --pcb packed_codebooks_aoTuV_603.bin & DEL "%%a")
+FOR %%a IN (audio_1_general\*.wem) DO (ww2ogg "%%a" --pcb packed_codebooks_aoTuV_603.bin & DEL "%%a")
 ```
