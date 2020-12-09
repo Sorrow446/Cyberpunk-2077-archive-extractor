@@ -1,10 +1,8 @@
 # Cyberpunk-2077-archive-extractor
 Rough CP2077 archive extractor written in Python.
 
-
 ### Usage
 Drag archive onto script. **Writing isn't chunked.**
-
 
 ### Supported Archives
 |Archive|Output|
