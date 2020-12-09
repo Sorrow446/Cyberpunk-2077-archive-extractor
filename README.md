@@ -2,7 +2,7 @@
 Rough CP2077 archive extractor written in Python.
 
 ### Usage
-Drag archive onto script. **Writing isn't chunked.**
+Drag archive onto script. **Reading of extracted files isn't chunked yet.**
 
 ### Supported Archives
 |Archive|Output|
@@ -14,5 +14,5 @@ Drag archive onto script. **Writing isn't chunked.**
 
 ### WEM to OGG
 ```
-FOR %%a IN (cp2077 extractor out\audio_1_general\*.wem) DO (ww2ogg "%%a" --pcb packed_codebooks_aoTuV_603.bin & DEL "%%a")
+FOR %%a IN ("cp2077 extractor out\audio_1_general\*.wem") DO (ww2ogg "%%a" --pcb packed_codebooks_aoTuV_603.bin & DEL "%%a")
 ```
