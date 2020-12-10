@@ -4,8 +4,10 @@ Rough CP2077 archive extractor written in Python.
 - It doesn't use hardcoded offsets so it'll work with different versions of archives.
 - **Reading of extracted files isn't chunked yet.**
 
+[Windows binaries](https://github.com/Sorrow446/Cyberpunk-2077-archive-extractor/releases)
+
 ### Usage
-Drag archive onto script.
+Drag archive onto script / exe.
 
 ### Supported Archives
 |Archive|Output|
