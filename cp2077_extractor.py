@@ -15,7 +15,7 @@ def find(sig):
 		f.seek(0)
 		while True:
 			concat_pos = 0
-			buf = f.read(2048 ** 2)
+			buf = f.read(max(2048 ** 2, len(sig)))
 			if not buf:
 				break
 			concat = prev + buf
